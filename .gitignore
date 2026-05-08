@@ -1,0 +1,36 @@
+# KiCad
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.lck
+fp-info-cache
+~*.lck
+
+# KiCad autosave
+_autosave-*
+
+# KiCad project local settings
+*.kicad_prl
+
+# Generated/output files
+*.net
+*.xml
+gerbers/
+production/
+*.gbr
+*.gbl
+*.gbs
+*.gbo
+*.gtl
+*.gts
+*.gto
+*.gtp
+*.gbp
+*.drl
+*.xnc
+
+# OS
+.DS_Store
+Thumbs.db
