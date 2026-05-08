@@ -1,0 +1,3200 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.03,
+        "fab_text_italic": false,
+        "fab_text_size_h": 0.15,
+        "fab_text_size_v": 0.15,
+        "fab_text_thickness": 0.03,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 0.8
+        },
+        "silk_line_width": 0.12,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": true,
+          "min_clearance": 0.1016
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "filename": "board_design_settings.json",
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "warning",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "warning",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "ignore",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "warning",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "warning",
+        "padstack": "error",
+        "pth_inside_courtyard": "warning",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "ignore",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+      "rules": {
+        "allow_blind_buried_vias": true,
+        "allow_microvias": true,
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.2,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.1016,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.254,
+        "min_microvia_drill": 0.1016,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.1524,
+        "min_track_width": 0.0762,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.3048,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.1016,
+        0.1524,
+        0.2032,
+        0.254,
+        0.3048,
+        0.381
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.254,
+          "drill": 0.1016
+        },
+        {
+          "diameter": 0.3048,
+          "drill": 0.1524
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "WLMS-v0_2_1-motherboard_panel.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_0-Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_0-Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_1-Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_1-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_1-Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_2-Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_2-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_2-Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_3-Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_3-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_3-Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_4-Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_4-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_4-Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_5-Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_5-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0762,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Board_5-Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.0762,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.1016,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.3048,
+        "via_drill": 0.1524,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/XOUT32"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PYTHON480/MONITOR2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SPI_DATA_MOSI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU_nRESET"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(Q1-B)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-CP_RESPD-PadF1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DEN1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-PadMP1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-PGOOD-Pad4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-PadMP2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-DOUT1-PadC9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/UART_RX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA6"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-PadMP4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/SPI1_NSS"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PA08-PadH8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-MBSINOUT1-PadH1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/CLK1_OUT"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB05-PadD8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/EXLED_PWM"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB00-PadA7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/EXLED_EN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB15-PadH6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PMU/PMU_nON"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-MBSINOUT1-PadH2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-DOUTN-PadD10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(J1-PadMP3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB31-PadB6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/IND_LED_CTRL"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PYTHON480/MONITOR0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB02-PadA8)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-DOUTP-PadC11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DEN2"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA7"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U1-SUSP-Pad19)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-LVDS_CLK_INN-PadF10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PA09-PadG6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SPI_DATA_CLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB06-PadE7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-SYNCP-PadD11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PA03-PadD6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/SPI1_MOSI"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PYTHON480/TRIGGER0"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/XIN32"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB07-PadE6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/IR_RECEIVER/IR_RX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PYTHON480/LOCK_DETECT"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB04-PadD7)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB11-PadG4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-PROG)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-CP_SEL_SAMPLE-PadH4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(U1-HPWR)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-DOUT0-PadB9)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-CLK_OUTP-PadB11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/SPI1_SCK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/SPI1_MISO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA4"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PB03-PadC6)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PYTHON480/MONITOR1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-LVDS_CLK_INP-PadE11)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-CP_CALIB-PadG1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-MBSINOUT2-PadH3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PUSH_BUT_EN"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U2A-PA27-PadB3)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SWCLK"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/nCHRG_IND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/UART_TX"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/MCU/PCC_DATA3"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/PYTHON480/RESET_N"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-CLK_OUTN-PadC10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(U3-SYNCN-PadE10)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/SWDIO"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/VOUT_PMU"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/MCU/VDDCORE"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/+1V8"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-+3V3"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/VIN_NONFILTER"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/VIN"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PMU/PMU_SW1"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PMU/PMU_FB1"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PMU/PMU_SW2"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PMU/PMU_FB2"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/ADC_BATTERY"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/V_BATTERY"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/INDICATOR_LED_DRIVER/LED_A"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/INDICATOR_LED_DRIVER/LED_C"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PYTHON480/IBIAS_MASTER"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PYTHON480/VDD_PIX"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PYTHON480/VREF_BOTPLATE"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/PYTHON480/VREF_FB"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/EXLED_A"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/ADC_WPT"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/MCU/MCU_VSW"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/MCU/VDDA"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/EXITATION_LED_DRIVER/ISET"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/EXITATION_LED_DRIVER/ISET_VDIV"
+      },
+      {
+        "netclass": "Board_0-Analog",
+        "pattern": "Board_0-/EXITATION_LED_DRIVER/ISET_DRAIN"
+      },
+      {
+        "netclass": "Board_0-Power",
+        "pattern": "Board_0-/+3V3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB11-PadG4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB02-PadA8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J1-PadMP3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PYTHON480/MONITOR1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U1-PROG)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_CLK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PYTHON480/LOCK_DETECT"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-SYNCP-PadD11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB05-PadD8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J1-PadMP1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA6"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PA03-PadD6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB03-PadC6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DEN2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU_nRESET"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/UART_RX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/XOUT32"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/SPI1_MOSI"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SPI_DATA_MOSI"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PYTHON480/MONITOR0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-CP_SEL_SAMPLE-PadH4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-SUSP-Pad19)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-MBSINOUT1-PadH1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-DOUT0-PadB9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/EXLED_PWM"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-LVDS_CLK_INN-PadF10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-CLK_OUTN-PadC10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/IND_LED_CTRL"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/EXLED_EN"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/IR_RECEIVER/IR_RX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/XIN32"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-SYNCN-PadE10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-MBSINOUT1-PadH2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA4"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SWCLK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/UART_TX"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PMU/PMU_nON"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-CP_RESPD-PadF1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PA08-PadH8)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/SPI1_MISO"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-DOUTP-PadC11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB04-PadD7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PYTHON480/MONITOR2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J1-PadMP2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U1-PGOOD-Pad4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB31-PadB6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB15-PadH6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-CLK_OUTP-PadB11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/nCHRG_IND"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-CP_CALIB-PadG1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(Q1-B)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-DOUTN-PadD10)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB07-PadE6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DEN1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/SPI1_SCK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PYTHON480/TRIGGER0"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SPI_DATA_CLK"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PUSH_BUT_EN"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PA09-PadG6)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB06-PadE7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(J1-PadMP4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/SPI1_NSS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-DOUT1-PadC9)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(U1-HPWR)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-MBSINOUT2-PadH3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SWDIO"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U3-LVDS_CLK_INP-PadE11)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PA27-PadB3)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA2"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/PYTHON480/RESET_N"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U2A-PB00-PadA7)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/PCC_DATA7"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/MCU/CLK1_OUT"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/VOUT_PMU"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/MCU/VDDCORE"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/+1V8"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-+3V3"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/VIN_NONFILTER"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-GND"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/VIN"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PMU/PMU_SW1"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PMU/PMU_FB1"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PMU/PMU_SW2"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PMU/PMU_FB2"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/ADC_BATTERY"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/V_BATTERY"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/INDICATOR_LED_DRIVER/LED_A"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/INDICATOR_LED_DRIVER/LED_C"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PYTHON480/IBIAS_MASTER"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PYTHON480/VDD_PIX"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PYTHON480/VREF_BOTPLATE"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/PYTHON480/VREF_FB"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/EXLED_A"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/ADC_WPT"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/MCU/MCU_VSW"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/MCU/VDDA"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/EXITATION_LED_DRIVER/ISET"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/EXITATION_LED_DRIVER/ISET_VDIV"
+      },
+      {
+        "netclass": "Board_1-Analog",
+        "pattern": "Board_1-/EXITATION_LED_DRIVER/ISET_DRAIN"
+      },
+      {
+        "netclass": "Board_1-Power",
+        "pattern": "Board_1-/+3V3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PYTHON480/TRIGGER0"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-DOUTP-PadC11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-LVDS_CLK_INN-PadF10)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB15-PadH6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB11-PadG4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PYTHON480/MONITOR1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA0"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PYTHON480/MONITOR0"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA4"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/UART_RX"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/SPI1_MISO"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J1-PadMP3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J1-PadMP4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB02-PadA8)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-CP_SEL_SAMPLE-PadH4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DEN1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SWDIO"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA6"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/XIN32"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J1-PadMP2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-CLK_OUTN-PadC10)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-LVDS_CLK_INP-PadE11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SPI_DATA_MOSI"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(Q1-B)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PYTHON480/LOCK_DETECT"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U1-PROG)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB04-PadD7)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-MBSINOUT2-PadH3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB03-PadC6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA5"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB06-PadE7)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-MBSINOUT1-PadH1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U1-SUSP-Pad19)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/EXLED_PWM"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U1-HPWR)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-DOUT1-PadC9)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/SPI1_SCK"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-DOUT0-PadB9)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SPI_DATA_CLK"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PA08-PadH8)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PA09-PadG6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB00-PadA7)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-CLK_OUTP-PadB11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PYTHON480/MONITOR2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PYTHON480/RESET_N"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U1-PGOOD-Pad4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-SYNCP-PadD11)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/SPI1_NSS"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-MBSINOUT1-PadH2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-DOUTN-PadD10)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PMU/PMU_nON"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB07-PadE6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PA27-PadB3)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/CLK1_OUT"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/IR_RECEIVER/IR_RX"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SWCLK"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(J1-PadMP1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-CP_CALIB-PadG1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/UART_TX"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DEN2"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/IND_LED_CTRL"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-SYNCN-PadE10)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/XOUT32"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB31-PadB6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU_nRESET"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/nCHRG_IND"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PB05-PadD8)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U3-CP_RESPD-PadF1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/EXLED_EN"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA3"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_CLK"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U2A-PA03-PadD6)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/SPI1_MOSI"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/PUSH_BUT_EN"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/MCU/PCC_DATA7"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/VOUT_PMU"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/MCU/VDDCORE"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/+1V8"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-+3V3"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/VIN_NONFILTER"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-GND"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/VIN"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PMU/PMU_SW1"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PMU/PMU_FB1"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PMU/PMU_SW2"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PMU/PMU_FB2"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/ADC_BATTERY"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/V_BATTERY"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/INDICATOR_LED_DRIVER/LED_A"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/INDICATOR_LED_DRIVER/LED_C"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PYTHON480/IBIAS_MASTER"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PYTHON480/VDD_PIX"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PYTHON480/VREF_BOTPLATE"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/PYTHON480/VREF_FB"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/EXLED_A"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/ADC_WPT"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/MCU/MCU_VSW"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/MCU/VDDA"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/EXITATION_LED_DRIVER/ISET"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/EXITATION_LED_DRIVER/ISET_VDIV"
+      },
+      {
+        "netclass": "Board_2-Analog",
+        "pattern": "Board_2-/EXITATION_LED_DRIVER/ISET_DRAIN"
+      },
+      {
+        "netclass": "Board_2-Power",
+        "pattern": "Board_2-/+3V3"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/SPI1_MISO"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/IND_LED_CTRL"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA5"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U1-PGOOD-Pad4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SWCLK"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-CLK_OUTP-PadB11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/IR_RECEIVER/IR_RX"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB03-PadC6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PYTHON480/MONITOR0"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SPI_DATA_CLK"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-MBSINOUT1-PadH1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB02-PadA8)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PYTHON480/TRIGGER0"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-SYNCP-PadD11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U1-PROG)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PYTHON480/RESET_N"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/EXLED_PWM"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PYTHON480/LOCK_DETECT"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SPI_DATA_MOSI"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/CLK1_OUT"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PA03-PadD6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/UART_RX"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PA08-PadH8)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB06-PadE7)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SWDIO"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/UART_TX"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB11-PadG4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-DOUT1-PadC9)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PA09-PadG6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-CP_RESPD-PadF1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/SPI1_SCK"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PUSH_BUT_EN"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/EXLED_EN"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB31-PadB6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-DOUTN-PadD10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB07-PadE6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-CLK_OUTN-PadC10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-CP_SEL_SAMPLE-PadH4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA7"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/XIN32"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DEN1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU_nRESET"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PYTHON480/MONITOR1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-LVDS_CLK_INP-PadE11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/XOUT32"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/nCHRG_IND"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA0"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J1-PadMP1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U1-SUSP-Pad19)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-DOUT0-PadB9)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA6"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U1-HPWR)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-MBSINOUT2-PadH3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J1-PadMP4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/SPI1_NSS"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/SPI1_MOSI"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(Q1-B)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DEN2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-CP_CALIB-PadG1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB15-PadH6)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA4"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB00-PadA7)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-DOUTP-PadC11)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PYTHON480/MONITOR2"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/PMU/PMU_nON"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB04-PadD7)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J1-PadMP3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_CLK"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-MBSINOUT1-PadH2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/MCU/PCC_DATA3"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PA27-PadB3)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-SYNCN-PadE10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U2A-PB05-PadD8)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U3-LVDS_CLK_INN-PadF10)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(J1-PadMP2)"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/VOUT_PMU"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/MCU/VDDCORE"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/+1V8"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-+3V3"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/VIN_NONFILTER"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-GND"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/VIN"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PMU/PMU_SW1"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PMU/PMU_FB1"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PMU/PMU_SW2"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PMU/PMU_FB2"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/ADC_BATTERY"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/V_BATTERY"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/INDICATOR_LED_DRIVER/LED_A"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/INDICATOR_LED_DRIVER/LED_C"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PYTHON480/IBIAS_MASTER"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PYTHON480/VDD_PIX"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PYTHON480/VREF_BOTPLATE"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/PYTHON480/VREF_FB"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/EXLED_A"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/ADC_WPT"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/MCU/MCU_VSW"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/MCU/VDDA"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/EXITATION_LED_DRIVER/ISET"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/EXITATION_LED_DRIVER/ISET_VDIV"
+      },
+      {
+        "netclass": "Board_3-Analog",
+        "pattern": "Board_3-/EXITATION_LED_DRIVER/ISET_DRAIN"
+      },
+      {
+        "netclass": "Board_3-Power",
+        "pattern": "Board_3-/+3V3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/EXLED_PWM"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SPI_DATA_CLK"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SWDIO"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/EXLED_EN"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U1-PROG)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-SUSP-Pad19)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PA27-PadB3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB00-PadA7)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/XOUT32"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB04-PadD7)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/SPI1_NSS"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PYTHON480/MONITOR1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-DOUTN-PadD10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-CP_SEL_SAMPLE-PadH4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA4"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-SYNCN-PadE10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DEN2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PYTHON480/MONITOR2"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PYTHON480/RESET_N"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/IR_RECEIVER/IR_RX"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU_nRESET"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/SPI1_MOSI"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PYTHON480/LOCK_DETECT"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB11-PadG4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA5"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA3"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB15-PadH6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB05-PadD8)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U1-HPWR)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-SYNCP-PadD11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-DOUT0-PadB9)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB06-PadE7)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-MBSINOUT1-PadH2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J1-PadMP3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB02-PadA8)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB03-PadC6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J1-PadMP2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA7"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-LVDS_CLK_INN-PadF10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-MBSINOUT1-PadH1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-DOUTP-PadC11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB07-PadE6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J1-PadMP4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PYTHON480/TRIGGER0"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-CP_RESPD-PadF1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PMU/PMU_nON"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-MBSINOUT2-PadH3)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(Q1-B)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PYTHON480/MONITOR0"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PB31-PadB6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_CLK"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PA08-PadH8)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/PUSH_BUT_EN"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/IND_LED_CTRL"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/SPI1_MISO"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(J1-PadMP1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA6"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-LVDS_CLK_INP-PadE11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/XIN32"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-DOUT1-PadC9)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DEN1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-CLK_OUTN-PadC10)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/nCHRG_IND"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SWCLK"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PA03-PadD6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U2A-PA09-PadG6)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-CLK_OUTP-PadB11)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/PCC_DATA0"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/UART_RX"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/SPI1_SCK"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/MCU/CLK1_OUT"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U3-CP_CALIB-PadG1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SPI_DATA_MOSI"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/UART_TX"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U1-PGOOD-Pad4)"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/VOUT_PMU"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/MCU/VDDCORE"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/+1V8"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-+3V3"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/VIN_NONFILTER"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-GND"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/VIN"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PMU/PMU_SW1"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PMU/PMU_FB1"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PMU/PMU_SW2"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PMU/PMU_FB2"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/ADC_BATTERY"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/V_BATTERY"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/INDICATOR_LED_DRIVER/LED_A"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/INDICATOR_LED_DRIVER/LED_C"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PYTHON480/IBIAS_MASTER"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PYTHON480/VDD_PIX"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PYTHON480/VREF_BOTPLATE"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/PYTHON480/VREF_FB"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/EXLED_A"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/ADC_WPT"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/MCU/MCU_VSW"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/MCU/VDDA"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/EXITATION_LED_DRIVER/ISET"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/EXITATION_LED_DRIVER/ISET_VDIV"
+      },
+      {
+        "netclass": "Board_4-Analog",
+        "pattern": "Board_4-/EXITATION_LED_DRIVER/ISET_DRAIN"
+      },
+      {
+        "netclass": "Board_4-Power",
+        "pattern": "Board_4-/+3V3"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/UART_RX"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB11-PadG4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PA03-PadD6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-SUSP-Pad19)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U1-PGOOD-Pad4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA3"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PA27-PadB3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D2-K)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/SPI1_MISO"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-CLK_OUTP-PadB11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-LVDS_CLK_INN-PadF10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB04-PadD7)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB31-PadB6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB07-PadE6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-DOUTP-PadC11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA6"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PYTHON480/RESET_N"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/XOUT32"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J1-PadMP4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/IND_LED_CTRL"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-DOUTN-PadD10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA5"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/CLK1_OUT"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-CLK_OUTN-PadC10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DEN1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PUSH_BUT_EN"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/EXLED_PWM"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB03-PadC6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PYTHON480/LOCK_DETECT"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-SYNCN-PadE10)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SPI_DATA_CLK"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-DOUT1-PadC9)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J1-PadMP2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-CP_SEL_SAMPLE-PadH4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB06-PadE7)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-CP_CALIB-PadG1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA7"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/IR_RECEIVER/IR_RX"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(Q1-B)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SPI_DATA_MOSI"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-MBSINOUT1-PadH1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J1-PadMP1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/nCHRG_IND"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PA09-PadG6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PMU/PMU_nON"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SWCLK"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA0"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DEN2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB00-PadA7)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SWDIO"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB15-PadH6)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PA08-PadH8)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU_nRESET"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-CP_RESPD-PadF1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/SPI1_NSS"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U1-HPWR)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_CLK"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-MBSINOUT2-PadH3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/UART_TX"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PYTHON480/MONITOR2"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(J1-PadMP3)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-MBSINOUT1-PadH2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-DOUT0-PadB9)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/SPI1_MOSI"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/PCC_DATA4"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PYTHON480/TRIGGER0"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PYTHON480/MONITOR1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-SYNCP-PadD11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB05-PadD8)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/XIN32"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U1-PROG)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/PYTHON480/MONITOR0"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/EXLED_EN"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U2A-PB02-PadA8)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(U3-LVDS_CLK_INP-PadE11)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/MCU/SPI1_SCK"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/VOUT_PMU"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/MCU/VDDCORE"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/+1V8"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-+3V3"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/VIN_NONFILTER"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-GND"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/VIN"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PMU/PMU_SW1"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PMU/PMU_FB1"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PMU/PMU_SW2"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PMU/PMU_FB2"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/ADC_BATTERY"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/V_BATTERY"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/INDICATOR_LED_DRIVER/LED_A"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/INDICATOR_LED_DRIVER/LED_C"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PYTHON480/IBIAS_MASTER"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PYTHON480/VDD_PIX"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PYTHON480/VREF_BOTPLATE"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/PYTHON480/VREF_FB"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/EXLED_A"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/ADC_WPT"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/MCU/MCU_VSW"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/MCU/VDDA"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/EXITATION_LED_DRIVER/ISET"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/EXITATION_LED_DRIVER/ISET_VDIV"
+      },
+      {
+        "netclass": "Board_5-Analog",
+        "pattern": "Board_5-/EXITATION_LED_DRIVER/ISET_DRAIN"
+      },
+      {
+        "netclass": "Board_5-Power",
+        "pattern": "Board_5-/+3V3"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [],
+  "text_variables": {}
+}

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Miniscope-v4-Wire-Free-rescue")(type "Legacy")(uri "${KIPRJMOD}/WLMS-v0_2_1-motherboard-rescue.lib")(options "")(descr ""))
+)
