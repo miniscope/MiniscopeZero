@@ -34,3 +34,5 @@ production/
 # OS
 .DS_Store
 Thumbs.db
+
+user_data/
