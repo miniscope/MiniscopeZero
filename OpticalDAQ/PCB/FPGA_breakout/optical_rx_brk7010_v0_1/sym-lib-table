@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Samtec_custom")(type "KiCad")(uri "/Users/takuya/Git/BTE-040-01-F-D-A/BTE-040-01-F-D-A.kicad_sym")(options "")(descr ""))
+)
