@@ -1,0 +1,89 @@
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (7.0.0)
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.9
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x00000163B2B59EE0>
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with U1 as a reference
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'U1'
+Located on: ['preamp_interface1']
+With filenames: ['preamp_interface.kicad_sch']
+With sheet_id:['preamp_interface1']
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('U2', ['preamp_interface2']), ('U1', ['preamp_interface1']), ('U4', ['preamp_interface4']), ('U3', ['preamp_interface3'])]
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'preamp_interface1', file:'preamp_interface.kicad_sch'
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['preamp_interface2'], ['preamp_interface3'], ['preamp_interface4']]
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['preamp_interface1']
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(1682, 88)
+08-10 18:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(1318, 88)
+08-10 18:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'preamp_interface1', file:'preamp_interface.kicad_sch'
+08-10 18:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['preamp_interface2'], ['preamp_interface3'], ['preamp_interface4']]
+08-10 18:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['preamp_interface1']
+08-10 18:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+08-10 18:04:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'preamp_interface1', file:'preamp_interface.kicad_sch'
+08-10 18:04:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['preamp_interface2'], ['preamp_interface3'], ['preamp_interface4']]
+08-10 18:04:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['preamp_interface1']
+08-10 18:04:51 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'preamp_interface1', file:'preamp_interface.kicad_sch'
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['preamp_interface2'], ['preamp_interface3'], ['preamp_interface4']]
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['preamp_interface2'], ['preamp_interface3'], ['preamp_interface4']]
+on level: ['preamp_interface1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
+08-10 18:04:57 root 299:updating GUI message: 'Preparing for replication'
+08-10 18:04:57 root 304:updating GUI with: 0
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 262:Removing tracks and zones, before footprint placement
+08-10 18:04:57 root 299:updating GUI message: 'Removing zones and tracks'
+08-10 18:04:57 root 304:updating GUI with: 0
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1122:Remove bounding box top:106275000, bottom:118980000, Left:53895000, Right:71240000
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1122:Remove bounding box top:125325000, bottom:138030000, Left:53895000, Right:71240000
+08-10 18:04:57 root 304:updating GUI with: 66
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1122:Remove bounding box top:144375000, bottom:157080000, Left:53895000, Right:71240000
+08-10 18:04:57 root 299:updating GUI message: 'Replicating footprints'
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Replicating footprints
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['preamp_interface2']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['preamp_interface3']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['preamp_interface4']
+08-10 18:04:57 root 304:updating GUI with: 76
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 270:Removing tracks and zones, after footprint placement
+08-10 18:04:57 root 299:updating GUI message: 'Removing zones and tracks'
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1122:Remove bounding box top:106275000, bottom:118980000, Left:53895000, Right:71240000
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1122:Remove bounding box top:125325000, bottom:138030000, Left:53895000, Right:71240000
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1122:Remove bounding box top:144375000, bottom:157080000, Left:53895000, Right:71240000
+08-10 18:04:57 root 299:updating GUI message: 'Replicating tracks'
+08-10 18:04:57 root 304:updating GUI with: 0
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 898:Replicating tracks
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['preamp_interface2']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['preamp_interface2'] :[('-3V3', '-3V3'), ('Net-(U1--)', 'Net-(U2--)'), ('/Signal adder/adder_in1', '/Signal adder/adder_in2'), ('+3V3', '+3V3'), ('Net-(C3-Pad1)', 'Net-(C9-Pad1)'), ('/preamp_interface1/raw_signal_out', '/preamp_interface2/raw_signal_out'), ('/preamp_interface1/signal_in', '/preamp_interface2/signal_in'), ('GND', 'GND'), ('Net-(CHPF1-Pad1)', 'Net-(C8-Pad1)'), ('Net-(U1-+)', 'Net-(U2-+)')]
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['preamp_interface3']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['preamp_interface3'] :[('/preamp_interface1/raw_signal_out', '/preamp_interface3/raw_signal_out'), ('/Signal adder/adder_in1', '/Signal adder/adder_in3'), ('-3V3', '-3V3'), ('Net-(U1-+)', 'Net-(U3-+)'), ('+3V3', '+3V3'), ('Net-(CHPF1-Pad1)', 'Net-(C14-Pad1)'), ('Net-(C3-Pad1)', 'Net-(C15-Pad1)'), ('Net-(U1--)', 'Net-(U3--)'), ('GND', 'GND'), ('/preamp_interface1/signal_in', '/preamp_interface3/signal_in')]
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['preamp_interface4']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['preamp_interface4'] :[('-3V3', '-3V3'), ('Net-(U1-+)', 'Net-(U4-+)'), ('+3V3', '+3V3'), ('Net-(C3-Pad1)', 'Net-(C21-Pad1)'), ('/preamp_interface1/raw_signal_out', '/preamp_interface4/raw_signal_out'), ('GND', 'GND'), ('Net-(CHPF1-Pad1)', 'Net-(C20-Pad1)'), ('/Signal adder/adder_in1', '/Signal adder/adder_in4'), ('Net-(U1--)', 'Net-(U4--)'), ('/preamp_interface1/signal_in', '/preamp_interface4/signal_in')]
+08-10 18:04:57 root 299:updating GUI message: 'Replicating zones'
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 956:Replicating zones
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['preamp_interface2']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['preamp_interface2'] :[('-3V3', '-3V3'), ('Net-(U1--)', 'Net-(U2--)'), ('/Signal adder/adder_in1', '/Signal adder/adder_in2'), ('+3V3', '+3V3'), ('Net-(C3-Pad1)', 'Net-(C9-Pad1)'), ('/preamp_interface1/raw_signal_out', '/preamp_interface2/raw_signal_out'), ('/preamp_interface1/signal_in', '/preamp_interface2/signal_in'), ('GND', 'GND'), ('Net-(CHPF1-Pad1)', 'Net-(C8-Pad1)'), ('Net-(U1-+)', 'Net-(U2-+)')]
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['preamp_interface3']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['preamp_interface3'] :[('/preamp_interface1/raw_signal_out', '/preamp_interface3/raw_signal_out'), ('/Signal adder/adder_in1', '/Signal adder/adder_in3'), ('-3V3', '-3V3'), ('Net-(U1-+)', 'Net-(U3-+)'), ('+3V3', '+3V3'), ('Net-(CHPF1-Pad1)', 'Net-(C14-Pad1)'), ('Net-(C3-Pad1)', 'Net-(C15-Pad1)'), ('Net-(U1--)', 'Net-(U3--)'), ('GND', 'GND'), ('/preamp_interface1/signal_in', '/preamp_interface3/signal_in')]
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['preamp_interface4']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['preamp_interface4'] :[('-3V3', '-3V3'), ('Net-(U1-+)', 'Net-(U4-+)'), ('+3V3', '+3V3'), ('Net-(C3-Pad1)', 'Net-(C21-Pad1)'), ('/preamp_interface1/raw_signal_out', '/preamp_interface4/raw_signal_out'), ('GND', 'GND'), ('Net-(CHPF1-Pad1)', 'Net-(C20-Pad1)'), ('/Signal adder/adder_in1', '/Signal adder/adder_in4'), ('Net-(U1--)', 'Net-(U4--)'), ('/preamp_interface1/signal_in', '/preamp_interface4/signal_in')]
+08-10 18:04:57 root 299:updating GUI message: 'Replicating text'
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1034:Replicating text
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['preamp_interface2']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['preamp_interface3']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['preamp_interface4']
+08-10 18:04:57 root 299:updating GUI message: 'Replicating drawings'
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1074:Replicating drawings
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['preamp_interface2']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['preamp_interface3']
+08-10 18:04:57 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['preamp_interface4']
+08-10 18:04:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete

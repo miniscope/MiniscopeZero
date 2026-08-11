@@ -1,0 +1,55 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"C1, C10, C16, C17, C3, C5, C9",7,1000p,C_0603_1608Metric,,GRM1885C1H102JA01D,,smt,Unpolarized capacitor
+"C11, C14, C18, C7",4,10u,C_1206_3216Metric,,GRM31CR71E106KA12L,,smt,Unpolarized capacitor
+C12,1,0.47u,C_0603_1608Metric,,GRM188R71E474KA12D,,smt,Unpolarized capacitor
+"C13, C6",2,10u/tant,CP_EIA-3216-10_Kemet-I,,TAJA106K010RNJ,,smt,Polarized capacitor
+"C15, C19, C8",3,4.7u,C_0603_1608Metric,,GRM188Z71A475ME15D,,smt,Unpolarized capacitor
+"C2, C4",2,0.1u,C_0603_1608Metric,,GCJ188R71E104KA12D,,smt,Unpolarized capacitor
+"D1, D2",2,LED,LED_0603_1608Metric,,150060RS75003,,smt,Light emitting diode
+"FB1, FB2",2,FerriteBead,L_0603_1608Metric,,BLM18KG121TN1D,,smt,Ferrite bead
+J1,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+"J10, J11, J4, J9",4,Conn_Coaxial,SMA_Amphenol_901-144_Vertical,,RF2-04A-T-00-50-G,,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J12,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J13,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J14,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J15,1,DNP,SMA_Amphenol_901-144_Vertical,,,Yes,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J16,1,Screw_Terminal_01x04,TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal,,282834-4,Yes,tht,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+J17,1,DNP,SMA_Amphenol_901-144_Vertical,,,Yes,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J18,1,DNP,SMA_Amphenol_901-144_Vertical,,,Yes,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J19,1,DNP,SMA_Amphenol_901-144_Vertical,,,Yes,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J2,1,DNP,SMA_Amphenol_901-144_Vertical,,,Yes,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J20,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J21,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J3,1,DNP,SMA_Amphenol_901-144_Vertical,,,Yes,tht,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+J5,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J6,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J7,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+J8,1,DNP,PinHeader_1x02_P2.54mm_Vertical,,,Yes,tht,"Generic connector, single row, 01x02, script generated"
+R1,1,121k,R_0603_1608Metric,,ERJ-3EKF1213V,,smt,Resistor
+R10,1,DNP,R_0603_1608Metric,,,Yes,smt,Resistor
+"R11, R12, R13, R7",4,0,R_0603_1608Metric,,CRCW06030000Z0EA,,smt,Resistor
+R14,1,DNP,R_0603_1608Metric,,,Yes,smt,Resistor
+"R15, R9",2,1k,R_0603_1608Metric,,CRCW06031K00FKEA,,smt,Resistor
+R16,1,DNP,R_0603_1608Metric,,,Yes,smt,Resistor
+"R17, R18",2,49.9,R_0603_1608Metric,,ERJ-3EKF49R9V,,smt,Resistor
+"R2, R3",2,154k,R_0603_1608Metric,,ERJ-3EKF1543V,,smt,Resistor
+"R20, R27",2,10k,R_0603_1608Metric,,CR0603-FX-1002ELF,,smt,Resistor
+"R21, R28",2,470m,R_0603_1608Metric,,ERJ-3RQJR47V,,smt,Resistor
+"R22, R29",2,453k,R_0603_1608Metric,,ERJ-3EKF4533V,,smt,Resistor
+R23,1,300,R_0603_1608Metric,,ERJ-PA3F3000V,,smt,Resistor
+"R24, R31",2,33.2k,R_0603_1608Metric,,ERJ-3EKF3322V,,smt,Resistor
+"R25, R32",2,49.9k,R_0603_1608Metric,,CRCW060349K9FKEA,,smt,Resistor
+R30,1,7.5k,R_0603_1608Metric,,ERJ-3EKF7501V,,smt,Resistor
+R4,1,DNP,R_0603_1608Metric,,,Yes,smt,Resistor
+R5,1,30.1k,R_0603_1608Metric,,ERJ-3RBD3012V,,smt,Resistor
+R6,1,DNP,R_0603_1608Metric,,,Yes,smt,Resistor
+R8,1,DNP,R_0603_1608Metric,,,Yes,smt,Resistor
+"RV1, RV2",2,3314G-1-104E,Potentiometer_Bourns_3314G_Vertical,,3314G-2-104E,,smt,Potentiometer
+TP3,1,DNP,TestPoint_Keystone_5000-5004_Miniature,,,Yes,tht,test point
+TP4,1,DNP,TestPoint_Keystone_5000-5004_Miniature,,,Yes,tht,test point
+TP5,1,DNP,TestPoint_Keystone_5000-5004_Miniature,,,Yes,tht,test point
+TP6,1,DNP,TestPoint_Keystone_5000-5004_Miniature,,,Yes,tht,test point
+TP7,1,DNP,TestPoint_Keystone_5000-5004_Miniature,,,Yes,tht,test point
+U1,1,AD8264,HVQFN-40-1EP_6x6mm_P0.5mm_EP4.1x4.1mm,,AD8264ACPZ,,smt,"Quad, 235 MHz, 6-30 dB gain, ±2.5 V to ±5 V supply, DC-Coupled VGA and Differential Output Amplifier, QFN-40"
+U2,1,LT3045xDD,DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm,,LT3045EDD#PBF,,smt,"500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, DFN-10"
+U3,1,LT3094xDD,DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm_ThermalVias,,LT3094EDD#TRPBF,,smt,"–20V, 500mA, Ultralow Noise, Ultrahigh PSRR Negative Linear Regulator, -1.8..-20Vin, 0..-19.5Vout, DFN-12"
