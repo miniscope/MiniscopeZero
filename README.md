@@ -33,7 +33,7 @@ QSCR/                               Quasistatic cavity resonance power-transfer 
 ├── Fusion360/                      QSCR behavioral arena design files
 └── PCB/c_mount/                    Capacitor mount PCB
 
-guides/                             Miscellaneous guides related to the system (TODO)
+guides/                             Miscellaneous guides (currently: QSCR operation and assembly)
 ```
 
 ## Related repositories (developed by authors)
