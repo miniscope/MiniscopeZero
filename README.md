@@ -29,8 +29,11 @@ OpticalDAQ/                         Receiver-side data acquisition hardware
 └── Housing/                        CNC aluminum shield box
 
 QSCR/                               Quasistatic cavity resonance power-transfer arena
+├── COMSOL/                         Electromagnetic simulation models of the arena
 ├── Fusion360/                      QSCR behavioral arena design files
 └── PCB/c_mount/                    Capacitor mount PCB
+
+guides/                             Miscellaneous guides related to the system (TODO)
 ```
 
 ## Related repositories (developed by authors)
@@ -38,6 +41,13 @@ QSCR/                               Quasistatic cavity resonance power-transfer 
 - [mio (Miniscope-I/O)](https://github.com/miniscope/mio) — data acquisition, synchronization, and preprocessing
 - [CaMAP](https://github.com/miniscope/CaMAP) — calcium imaging mapping and analysis pipeline
 - [wpt-devkit](https://github.com/SasataniLab/wpt-devkit) — wireless power transmitter
+- [FuzzyTrack](https://github.com/miniscope/FuzzyTrack) — Diffused LED position tracking
+
+## Contributing
+
+This repository primarily archives the design files accompanying the paper, so
+pull requests are unlikely to be merged. Questions and issue reports are
+welcome via the issue tracker.
 
 ## Hardware modules (TODO)
 
