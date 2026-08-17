@@ -53,6 +53,25 @@ for the stock number where no stable product URL exists.
 layout of the optical stack, exported from Fusion 360 (design v0.2.10), with
 element spacings in mm.
 
+## Housing
+
+`housing/` holds the 3D-printed optical housing (design v0.2.10):
+
+- `Wireless_Miniscope_v_0_2_10.step` — all four bodies as exact solids. Use this
+  to modify the design in any CAD package.
+- `Wireless_Miniscope_v_0_2_10.f3d` — Fusion 360 archive with the design history.
+- One STL per body, for printing:
+
+| File | Body | Size (mm) |
+| --- | --- | --- |
+| `base_unit.stl` | Main chassis, tube-lens bore | 11.3 x 13.0 x 9.0 |
+| `objective_unit.stl` | Objective lens holder | 7.9 x 2.1 x 7.9 |
+| `excitation_unit.stl` | Excitation LED and filter arm | 7.6 x 7.6 x 9.0 |
+| `focus_slider_unit.stl` | Set-screw focus slider | 8.4 x 10.0 x 8.0 |
+
+The four parts print separately. Each STL is a single watertight, manifold shell
+at the origin, so it can be oriented independently in the slicer.
+
 ## Optical design
 
 `zemax/` contains the sequential-mode OpticStudio models:
