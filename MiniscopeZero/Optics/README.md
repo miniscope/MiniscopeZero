@@ -72,6 +72,42 @@ element spacings in mm.
 The four parts print separately. Each STL is a single watertight, manifold shell
 at the origin, so it can be oriented independently in the slicer.
 
+Printed on a Formlabs Form 4 in Black Resin V5 at 25 um layer thickness.
+
+## Baseplate and dust cap
+
+`baseplate/` holds the skull-mounted baseplate and its dust cap. The two are
+made differently:
+
+| Part | Process | File to use |
+| --- | --- | --- |
+| Baseplate | CNC machined (Protolabs) | `baseplate.step` |
+| Dust cap | 3D printed | `dust_cap.stl` |
+
+The dust cap prints on the same settings as the housing: Formlabs Form 4, Black
+Resin V5, 25 um layer thickness.
+
+Baseplate machining specification (as ordered from Protolabs):
+
+| | |
+| --- | --- |
+| Material | Aluminium 7075-T651 |
+| Process | Mill |
+| Dimensions | 14.59 x 5.99 x 14.89 mm |
+| Tolerance | +/- 0.005 in (0.13 mm) |
+| Edges | Broken; tool marks visible |
+| Internal corners | Sharp, at minimum tool radius |
+| Threading | 1 feature, UNF #2-64 |
+
+The threaded bore is highlighted in green below. It takes the set screw that
+locks the optical stack in the baseplate once the focal plane is set.
+
+![Baseplate seen from above, with the UNF #2-64 threaded bore highlighted in green](thread_location.png)
+
+`baseplate.step` is the exact solid sent for machining; `baseplate.stl` is the
+tessellated equivalent, for viewing and fit checks. `baseplate_and_dustcap.f3z`
+is the Fusion 360 assembly archive for both parts.
+
 ## Optical design
 
 `zemax/` contains the sequential-mode OpticStudio models:
