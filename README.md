@@ -25,7 +25,7 @@ OpticalDAQ/                         Receiver-side data acquisition hardware
 ├── PCB/
 │   ├── optical_daq_v0_4/           Photoreceiver front end: VGA board and digitizer board
 │   ├── optical_downlink_v0_2/      USB board for the IR downlink
-│   └── FPGA_breakout/              Breakout board for the Opal Kelly XEM7010 FPGA module
+│   └── FPGA_breakout/              Breakout board for the Opal Kelly XEM7310 FPGA module
 └── Housing/                        CNC aluminum shield box
 
 QSCR/                               Quasistatic cavity resonance power-transfer arena
