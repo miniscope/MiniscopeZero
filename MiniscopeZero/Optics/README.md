@@ -7,16 +7,25 @@ mechanical drawing, optical design files, and housing/baseplate CAD.
 
 ```
 Optics/
+├── ASSEMBLY.md       Step-by-step build guide for the printed parts and optics
 ├── optics_bom.csv    Bill of materials for the optical path
 ├── mechanical/       Dimensioned drawing of the optical assembly (Fusion 360 export)
 ├── zemax/            Ansys Zemax OpticStudio sequential-mode design files
 ├── housing/          3D-printed optical housing CAD
-└── baseplate/        3D-printed baseplate CAD
+├── baseplate/        3D-printed baseplate CAD and hardware list
+└── img/              Figures for the assembly guide
 ```
 
 The housing holds the optical stack; the baseplate is cemented to the skull and
 receives it. A set-screw mechanism sets the focal plane relative to the implanted
 GRIN lens during baseplating, then locks it for subsequent recordings.
+
+## Assembly
+
+[`ASSEMBLY.md`](ASSEMBLY.md) is the build guide for the head-mounted assembly:
+which optic goes into which printed part and in which orientation, edge
+blackening and adhesive practice, the order the four printed parts are joined
+in, and a dark-field leak test to run before the scope goes on an animal.
 
 ## Bill of materials
 
@@ -107,6 +116,10 @@ locks the optical stack in the baseplate once the focal plane is set.
 `baseplate.step` is the exact solid sent for machining; `baseplate.stl` is the
 tessellated equivalent, for viewing and fit checks. `baseplate_and_dustcap.f3z`
 is the Fusion 360 assembly archive for both parts.
+
+`baseplate/baseplate_components.csv` lists the hardware that goes with it: the
+McMaster-Carr `92311A317` set screw (18-8 stainless, cup tip, 2-64 UNF x 1/8 in,
+0.035 in / 0.9 mm hex drive) and the precision hex driver used to turn it.
 
 ## Optical design
 

@@ -14,11 +14,13 @@ Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Mar
 ```
 MiniscopeZero/                      Wireless miniscope
 ├── Optics/                         Optical system
+│   ├── ASSEMBLY.md                 Build guide for the printed parts and optics
 │   ├── optics_bom.csv              Bill of materials for the optical path
 │   ├── mechanical/                 Dimensioned drawing of the optical assembly
 │   ├── zemax/                      Zemax OpticStudio sequential design files
 │   ├── housing/                    3D-printed housing: STEP, Fusion archive, per-body STLs
-│   └── baseplate/                  CNC-machined baseplate and 3D-printed dust cap
+│   └── baseplate/                  CNC-machined baseplate, 3D-printed dust cap,
+│                                   and set-screw hardware list
 └── PCB/                            Electronics
     ├── WLMS-v0_2_1-motherboard/    Main board: PYTHON480 image sensor, MCU, PMU,
     │                               excitation LED, IR receiver
