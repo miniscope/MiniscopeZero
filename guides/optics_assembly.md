@@ -196,7 +196,7 @@ All dimensions in mm. See `img/fig4_optical_layout.png` for spacings.
 
 ## 8. Baseplate hardware
 
-Full details in [`baseplate/baseplate_components.csv`](baseplate/baseplate_components.csv).
+Full details in [`MiniscopeZero/Optics/baseplate/baseplate_components.csv`](../MiniscopeZero/Optics/baseplate/baseplate_components.csv).
 
 The set screw that locks the scope body into the implanted baseplate is
 McMaster-Carr **`92311A317`**: an 18-8 stainless steel cup-tip set screw,

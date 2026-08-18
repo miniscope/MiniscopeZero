@@ -7,13 +7,11 @@ mechanical drawing, optical design files, and housing/baseplate CAD.
 
 ```
 Optics/
-├── ASSEMBLY.md       Step-by-step build guide for the printed parts and optics
 ├── optics_bom.csv    Bill of materials for the optical path
 ├── mechanical/       Dimensioned drawing of the optical assembly (Fusion 360 export)
 ├── zemax/            Ansys Zemax OpticStudio sequential-mode design files
 ├── housing/          3D-printed optical housing CAD
-├── baseplate/        3D-printed baseplate CAD and hardware list
-└── img/              Figures for the assembly guide
+└── baseplate/        3D-printed baseplate CAD and hardware list
 ```
 
 The housing holds the optical stack; the baseplate is cemented to the skull and
@@ -22,7 +20,7 @@ GRIN lens during baseplating, then locks it for subsequent recordings.
 
 ## Assembly
 
-[`ASSEMBLY.md`](ASSEMBLY.md) is the build guide for the head-mounted assembly:
+[`guides/optics_assembly.md`](../../guides/optics_assembly.md) is the build guide for the head-mounted assembly:
 which optic goes into which printed part and in which orientation, edge
 blackening and adhesive practice, the order the four printed parts are joined
 in, and a dark-field leak test to run before the scope goes on an animal.

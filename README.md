@@ -14,7 +14,6 @@ Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Mar
 ```
 MiniscopeZero/                      Wireless miniscope
 ├── Optics/                         Optical system
-│   ├── ASSEMBLY.md                 Build guide for the printed parts and optics
 │   ├── optics_bom.csv              Bill of materials for the optical path
 │   ├── mechanical/                 Dimensioned drawing of the optical assembly
 │   ├── zemax/                      Zemax OpticStudio sequential design files
@@ -40,7 +39,10 @@ QSCR/                               Quasistatic cavity resonance power-transfer 
 ├── Fusion360/                      QSCR behavioral arena design files
 └── PCB/c_mount/                    Capacitor mount PCB
 
-guides/                             Miscellaneous guides (currently: QSCR operation and assembly)
+guides/                             Build and operation guides
+├── optics_assembly.md              Assembling the miniscope printed parts and optics
+├── qscr_operation.md               QSCR cavity operation, tuning, and assembly
+└── img/                            Figures for the guides
 ```
 
 ## Related repositories (developed by authors)
