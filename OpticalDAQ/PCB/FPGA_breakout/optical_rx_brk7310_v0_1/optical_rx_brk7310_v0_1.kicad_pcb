@@ -385,7 +385,7 @@
 		)
 		(path "/f650a504-74bd-4673-934d-b9abefee9575")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 18 3.1875)
@@ -1483,7 +1483,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b736b86-56ac-4810-9fd1-72ddcf715fe0")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -1751,7 +1751,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/3fe27f39-abc8-48c3-bd95-8fd82a902d4c")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.45 3.355)
@@ -2031,7 +2031,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/41022183-8c2e-4524-bd7f-50f350c0dd1b")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -2297,7 +2297,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/03a58bb1-0eee-4799-bc76-e9c238cf5f04")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -2609,7 +2609,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/78b96181-0212-421e-8631-13a6e0fedbea")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -3.355 -1.45)
@@ -2891,7 +2891,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/e927c7d8-fac4-4568-bb20-2efa969af78c")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.355 -1.45)
@@ -3171,7 +3171,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bede5bef-f77c-41c7-bf2f-b2db2e2f48b9")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -3437,7 +3437,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/48d1acac-68d5-45c7-815e-3829cee2d5a4")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -3704,7 +3704,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/96d11f36-a000-4dea-a13b-437f944abcdf")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -3823,7 +3823,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/f2b6be2b-eebc-48f8-b7d9-678678138f69")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -3.355 -1.45)
@@ -4103,7 +4103,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b8163537-99cc-4afe-9997-1d89dfda7d4b")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -4370,7 +4370,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/17a9a09d-3869-4464-9628-2a38af730491")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -4489,7 +4489,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/65c5d986-ae34-44b7-8e35-9ef29309cdd8")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.45 3.355)
@@ -4770,7 +4770,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/7c9b8757-966a-4e1b-a5ca-2bbc06616207")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -4888,7 +4888,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/aefb07c4-0f19-413c-b2a7-9bbbf88095a7")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -5041,7 +5041,7 @@
 		)
 		(path "/8d872b64-45d3-4dbf-b35f-8365ad50a29e")
 		(sheetname "/")
-		(sheetfile "optical_rx_brk7010_v0_1.kicad_sch")
+		(sheetfile "optical_rx_brk7310_v0_1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 18 3.1875)
