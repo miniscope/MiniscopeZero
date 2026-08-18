@@ -109,7 +109,7 @@ Baseplate machining specification (as ordered from Protolabs):
 The threaded bore is highlighted in green below. It takes the set screw that
 locks the optical stack in the baseplate once the focal plane is set.
 
-![Baseplate seen from above, with the UNF #2-64 threaded bore highlighted in green](thread_location.png)
+![Baseplate seen from above, with the UNF #2-64 threaded bore highlighted in green](baseplate/thread_location.png)
 
 `baseplate.step` is the exact solid sent for machining; `baseplate.stl` is the
 tessellated equivalent, for viewing and fit checks. `baseplate_and_dustcap.f3z`
