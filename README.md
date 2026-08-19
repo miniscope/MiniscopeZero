@@ -18,7 +18,8 @@ MiniscopeZero/                      Wireless miniscope
 │   ├── mechanical/                 Dimensioned drawing of the optical assembly
 │   ├── zemax/                      Zemax OpticStudio sequential design files
 │   ├── housing/                    3D-printed housing: STEP, Fusion archive, per-body STLs
-│   └── baseplate/                  CNC-machined baseplate and 3D-printed dust cap
+│   └── baseplate/                  CNC-machined baseplate, 3D-printed dust cap,
+│                                   and set-screw hardware list
 └── PCB/                            Electronics
     ├── WLMS-v0_2_1-motherboard/    Main board: PYTHON480 image sensor, MCU, PMU,
     │                               excitation LED, IR receiver
@@ -38,7 +39,10 @@ QSCR/                               Quasistatic cavity resonance power-transfer 
 ├── Fusion360/                      QSCR behavioral arena design files
 └── PCB/c_mount/                    Capacitor mount PCB
 
-guides/                             Miscellaneous guides (currently: QSCR operation and assembly)
+guides/                             Build and operation guides
+├── optics_assembly.md              Assembling the miniscope printed parts and optics
+├── qscr_operation.md               QSCR cavity operation, tuning, and assembly
+└── img/                            Figures for the guides
 ```
 
 ## Related repositories (developed by authors)
