@@ -66,4 +66,4 @@ Off-the-shelf or reference modules used in the system:
 
 This repository primarily archives the design files accompanying the paper, so
 pull requests are unlikely to be merged. Questions and issue reports are
-welcome via the issue tracker.
+welcome via the issue tracker, though we cannot guarantee a response.
