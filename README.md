@@ -5,7 +5,7 @@ Repository for **Miniscope Zero: a fully wireless, single-cell-resolution miniat
 Miniscope Zero is a miniature one-photon microscope that operates without tethers: power is delivered via quasistatic cavity resonance (QSCR) wireless power transfer, and imaging data is streamed over a high-bandwidth optical link. This repository hosts the project-specific hardware designs — the miniscope, the optical data acquisition hardware, and the QSCR arena — and points to the related software and hardware repositories.
 
 - Preprint: (TODO: bioRxiv link)
-- License: [CERN-OHL-S v2](LICENSE)
+- License: [CERN-OHL-S v2](LICENSE) — bundled code retains its original license where noted: the vendored [Miniscope-SAMD-Framework](https://github.com/miniscope/Miniscope-SAMD-Framework) snapshot (`MS_module`) is AGPL-3.0, and Microchip ASF/Atmel START driver code keeps Microchip's license
 
 Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Marcel Brosch ([@MarcelMB](https://github.com/MarcelMB)).
 
@@ -13,6 +13,7 @@ Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Mar
 
 ```
 MiniscopeZero/                      Wireless miniscope
+├── Firmware/                       SAMD51 firmware (Microchip Studio project)
 ├── Optics/                         Optical system
 │   ├── optics_bom.csv              Bill of materials for the optical path
 │   ├── mechanical/                 Dimensioned drawing of the optical assembly
@@ -47,6 +48,7 @@ guides/                             Miscellaneous guides (currently: QSCR operat
 - [CaMAP](https://github.com/miniscope/CaMAP) — calcium imaging mapping and analysis pipeline
 - [wpt-devkit](https://github.com/SasataniLab/wpt-devkit) — wireless power transmitter
 - [FuzzyTrack](https://github.com/miniscope/FuzzyTrack) — diffused LED position tracking
+- [Miniscope-SAMD-Framework](https://github.com/miniscope/Miniscope-SAMD-Framework) — firmware framework template; `Firmware/.../MS_module` is a minimal vendored snapshot of [v0.3.1](https://github.com/miniscope/Miniscope-SAMD-Framework/tree/v0.3.1)
 
 ## Hardware modules
 

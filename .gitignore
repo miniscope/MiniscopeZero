@@ -31,6 +31,18 @@ production/
 *.drl
 *.xnc
 
+# Firmware (Microchip/Atmel Studio, MPLAB X)
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.atsuo
+.generated_files/
+nbproject/private/
+!MiniscopeZero/Firmware/**/nbproject/project.xml
+!MiniscopeZero/Firmware/**/nbproject/configurations.xml
+!MiniscopeZero/Firmware/**/*.componentinfo.xml
+!MiniscopeZero/Firmware/**/DoxygenLayout.xml
+
 # OS
 .DS_Store
 Thumbs.db
