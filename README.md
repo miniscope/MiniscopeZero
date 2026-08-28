@@ -50,6 +50,7 @@ guides/                             Build and operation guides
 
 - [mio (Miniscope-I/O)](https://github.com/miniscope/mio) — data acquisition, synchronization, and preprocessing
 - [CaMAP](https://github.com/miniscope/CaMAP) — calcium imaging mapping and analysis pipeline
+- [miniscope_preproc](https://github.com/miniscope/miniscope_preproc) — preprocessing for Miniscope Zero calcium imaging videos
 - [wpt-devkit](https://github.com/SasataniLab/wpt-devkit) — wireless power transmitter
 - [FuzzyTrack](https://github.com/miniscope/FuzzyTrack) — diffused LED position tracking
 - [Miniscope-SAMD-Framework](https://github.com/miniscope/Miniscope-SAMD-Framework) — firmware framework template; `Firmware/.../MS_module` is a minimal vendored snapshot of [v0.3.1](https://github.com/miniscope/Miniscope-SAMD-Framework/tree/v0.3.1)
