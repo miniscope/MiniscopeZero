@@ -63,6 +63,12 @@ Off-the-shelf or reference modules used in the system:
 - [EPC9065](https://epc-co.com/epc/products/evaluation-boards/epc9065) — high-frequency ZVS class-D power amplifier, drives the QSCR cavity
 - [Opal Kelly XEM7310](https://www.opalkelly.com/products/fpga-integration/XEM7310/) — Artix-7 FPGA board for data acquisition
 
+## Batteries
+
+- [Powerstream GM041215](https://www.powerstream.com/ultra-light.htm) — Low weight miniature lithium ion battery, 45mAH, 3.7V, 4x12x15 mm, 1 g
+- [Powerstream GM300910](https://www.powerstream.com/ultra-light.htm) — Low weight miniature lithium ion battery, 11mAH, 3.7V, 3x9x10 mm, 0.33 g
+
+
 ## Contributing
 
 This repository primarily archives the design files accompanying the paper, so
