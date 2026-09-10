@@ -1,0 +1,11 @@
+kind: hardware_component
+name: Miniscope Zero FPGA Breakout
+version: 0.1.0
+description: |
+  Breakout board for the Opal Kelly XEM7310 FPGA module.
+
+hardware_type: Circuit Board
+source_path: OpticalDAQ/PCB/FPGA_breakout
+
+design_files:
+  board: optical_rx_brk7310_v0_1/

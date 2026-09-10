@@ -1,0 +1,14 @@
+kind: hardware_component
+name: Miniscope Zero QSCR Arena
+version: 0.1.0
+description: |
+  Quasistatic cavity resonance power-transfer arena: behavioral arena design,
+  electromagnetic simulation models, and capacitor mount PCB.
+
+hardware_type: Mechanical
+source_path: QSCR
+
+design_files:
+  arena_model:   Fusion360/arena_QSCR.f3z
+  comsol_dir:    COMSOL/
+  capacitor_pcb: PCB/c_mount/

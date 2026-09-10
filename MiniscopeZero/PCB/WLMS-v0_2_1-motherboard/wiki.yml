@@ -1,0 +1,14 @@
+kind: hardware_component
+name: Miniscope Zero Motherboard
+version: 0.2.1
+description: |
+  Main board of the wireless miniscope: PYTHON480 image sensor, MCU, PMU,
+  excitation LED, and IR receiver for the downlink.
+
+hardware_type: Circuit Board
+source_path: MiniscopeZero/PCB/WLMS-v0_2_1-motherboard
+
+design_files:
+  schematic:  WLMS-v0_2_1-motherboard.kicad_sch
+  pcb_layout: WLMS-v0_2_1-motherboard.kicad_pcb
+  project:    WLMS-v0_2_1-motherboard.kicad_pro

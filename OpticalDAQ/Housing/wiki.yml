@@ -1,0 +1,11 @@
+kind: hardware_component
+name: Miniscope Zero DAQ Housing
+version: 0.1.4
+description: |
+  CNC aluminum shield box for the optical DAQ.
+
+hardware_type: Mechanical
+source_path: OpticalDAQ/Housing
+
+design_files:
+  current: v0_1_4/

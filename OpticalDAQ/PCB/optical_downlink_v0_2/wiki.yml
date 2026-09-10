@@ -1,0 +1,11 @@
+kind: hardware_component
+name: Miniscope Zero Optical Downlink Board
+version: 0.2.0
+description: |
+  USB timer board driving the infrared downlink.
+
+hardware_type: Circuit Board
+source_path: OpticalDAQ/PCB/optical_downlink_v0_2
+
+design_files:
+  board: timer_usb_board_v0_2/

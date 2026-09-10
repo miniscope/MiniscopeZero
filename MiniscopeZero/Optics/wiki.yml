@@ -1,0 +1,19 @@
+kind: hardware_component
+name: Miniscope Zero Optics
+version: 0.2.10
+description: |
+  Folded optical path of the miniscope: excitation and emission optics,
+  3D-printed housing, and CNC-machined baseplate.
+
+hardware_type: Optical
+source_path: MiniscopeZero/Optics
+
+specs:
+  - {name: Field of View, value: "600 × 600", unit: um}
+  - {name: Resolution,    value: "6.2",       unit: um}
+
+design_files:
+  bom:           optics_bom.csv
+  zemax_dir:     zemax/
+  housing_dir:   housing/
+  baseplate_dir: baseplate/

@@ -1,0 +1,13 @@
+kind: hardware_component
+name: Miniscope Zero WPT Receiver Coils
+version: 0.1.0
+description: |
+  Rectangular wireless power receiver coils in three sizes.
+
+hardware_type: Circuit Board
+source_path: MiniscopeZero/PCB/WPT_receiver
+
+design_files:
+  rect_20_20:    rect_20_20/
+  rect_22_18:    rect_22_18/
+  rect_24-5_16:  rect_24-5_16/

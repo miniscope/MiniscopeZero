@@ -1,0 +1,13 @@
+kind: hardware_component
+name: Miniscope Zero Optical DAQ Digitizer Board
+version: 0.4.1
+description: |
+  Digitizer board of the photoreceiver front end.
+
+hardware_type: Circuit Board
+source_path: OpticalDAQ/PCB/optical_daq_v0_4/optical_daq_digitizer_v0_4_1
+
+design_files:
+  schematic:  optical_daq_digitizer_v0_4_1.kicad_sch
+  pcb_layout: optical_daq_digitizer_v0_4_1.kicad_pcb
+  project:    optical_daq_digitizer_v0_4_1.kicad_pro

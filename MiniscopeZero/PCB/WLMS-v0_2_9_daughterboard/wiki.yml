@@ -1,0 +1,14 @@
+kind: hardware_component
+name: Miniscope Zero Daughterboard
+version: 0.2.9
+description: |
+  Power and uplink board: rectifier, pre-regulator, and TX LED for the
+  optical data link.
+
+hardware_type: Circuit Board
+source_path: MiniscopeZero/PCB/WLMS-v0_2_9_daughterboard
+
+design_files:
+  schematic:  WLMS-v0_2_9_daughterboard.kicad_sch
+  pcb_layout: WLMS-v0_2_9_daughterboard.kicad_pcb
+  project:    WLMS-v0_2_9_daughterboard.kicad_pro
