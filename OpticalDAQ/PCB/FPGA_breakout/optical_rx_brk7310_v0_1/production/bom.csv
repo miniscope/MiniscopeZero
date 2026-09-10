@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2",SAMTEC_BTE-040-01-F-D-A,2,BTE-040-01-F-D-A,
+"J10, J11, J12, J13, J9",PinHeader_1x02_P2.54mm_Vertical,5,Conn_01x02_Pin,
+"J3, J4, J5, J6, J7",SMA_Amphenol_901-144_Vertical,5,Conn_Coaxial,
+J8,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06_Pin,

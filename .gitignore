@@ -1,5 +1,6 @@
 # KiCad
 *-backups/
+**/production/backups/
 *.bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
@@ -17,19 +18,7 @@ _autosave-*
 # Generated/output files
 *.net
 *.xml
-gerbers/
-production/
-*.gbr
-*.gbl
-*.gbs
-*.gbo
-*.gtl
-*.gts
-*.gto
-*.gtp
-*.gbp
-*.drl
-*.xnc
+*.log
 
 # Firmware (Microchip/Atmel Studio, MPLAB X)
 .vs/
