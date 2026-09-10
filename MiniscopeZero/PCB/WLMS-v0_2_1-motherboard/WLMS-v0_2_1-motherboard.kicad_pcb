@@ -183,7 +183,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/fsang/Documents/Miniscope-v4-Wire-Free/Miniscope-v4-Wire-Free-KiCad/KiCad/Miniscope-v4-Wire-Free/Output/Second Batch - PCB fabrication and assembly/With ECo")
+			(outputdirectory "")
 		)
 	)
 	(net 0 "")
