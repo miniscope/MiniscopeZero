@@ -5,9 +5,15 @@ Repository for **Miniscope Zero: a fully wireless, single-cell-resolution miniat
 Miniscope Zero is a miniature one-photon microscope that operates without tethers: power is delivered via quasistatic cavity resonance (QSCR) wireless power transfer, and imaging data is streamed over a high-bandwidth optical link. This repository hosts the project-specific hardware designs — the miniscope, the optical data acquisition hardware, and the QSCR arena — and points to the related software and hardware repositories.
 
 - Preprint: (TODO: bioRxiv link)
+- Wiki: https://miniscope.org/wiki/Miniscope_Zero
 - License: [CERN-OHL-S v2](LICENSE) — bundled code retains its original license where noted: the vendored [Miniscope-SAMD-Framework](https://github.com/miniscope/Miniscope-SAMD-Framework) snapshot (`MS_module`) is AGPL-3.0, and Microchip ASF/Atmel START driver code keeps Microchip's license
 
 Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Marcel Brosch ([@MarcelMB](https://github.com/MarcelMB)).
+
+## Videos
+https://github.com/user-attachments/assets/aa9ec822-df9f-4f50-9b2d-21a6ab23955f
+
+https://github.com/user-attachments/assets/bc67a5da-3641-4dcf-a8c2-b1db79f1c406
 
 ## Repository contents
 
