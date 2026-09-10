@@ -1,0 +1,37 @@
+kind: project
+name: Miniscope Zero
+description: |
+  Miniscope Zero — a fully wireless, single-cell-resolution miniature
+  microscope for imaging neural dynamics in freely behaving animals. Combines
+  quasistatic cavity resonance (QSCR) wireless power transfer with a
+  high-bandwidth optical data link for zero-tether operation.
+
+repository_url: https://github.com/miniscope/MiniscopeZero
+license: CERN-OHL-S-2.0
+
+# TODO
+# citation:
+#   doi:
+#   bibtex: CITATION.bib
+
+specs:
+  - {name: Field of View,      value: "600 × 600", unit: um}
+  - {name: Resolution,         value: "6.2",       unit: um}
+  - {name: Image Format,       value: "200 × 200", unit: px}
+  - {name: Frame Rate,         value: "20",        unit: fps}
+  - {name: Weight,             value: "4.12",      unit: g}
+
+features:
+  - Fully wireless (zero-tether) operation
+  - QSCR wireless power transfer across the behavioral arena
+  - High-bandwidth optical data uplink, infrared control downlink
+  - Folded optical path with high light-collection efficiency
+  - Supports simultaneous multi-animal imaging
+
+images:
+  - path: guides/img/minizero_thumbnail.jpg
+    caption: Miniscope Zero on a mouse (illustration)
+    kind: render
+
+wiki:
+  base_path: Miniscope_Zero

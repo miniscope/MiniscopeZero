@@ -1,0 +1,39 @@
+name: Sync to wikis
+
+on:
+  # Run automatically when a release tag is pushed
+  push:
+    tags: ['v*']
+
+  # Also allow manual runs from the Actions tab — useful for testing
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Tag to sync (defaults to the workflow's ref).
+        required: false
+        type: string
+      dry_run:
+        description: Plan and print only, don't write to wikis.
+        required: false
+        type: boolean
+        default: true
+      changelog:
+        description: Optional changelog text for the Release page.
+        required: false
+        type: string
+
+jobs:
+  sync:
+    uses: labki-org/wiki-repo-bridge/.github/workflows/sync.yml@main
+    with:
+      wikis: |
+        https://new-wiki.aharoni-lab.com/api.php
+        https://miniscope.org/api.php creds=alt
+      tag: ${{ inputs.tag }}
+      dry_run: ${{ inputs.dry_run || false }}
+      changelog: ${{ inputs.changelog || '' }}
+    secrets:
+      WIKI_REPO_BOT_USER: ${{ secrets.WIKI_REPO_BOT_USER }}
+      WIKI_REPO_BOT_PASSWORD: ${{ secrets.WIKI_REPO_BOT_PASSWORD }}
+      WIKI_REPO_BOT_USER_ALT: ${{ secrets.WIKI_REPO_MINISCOPE_BOT_USER }}
+      WIKI_REPO_BOT_PASSWORD_ALT: ${{ secrets.WIKI_REPO_MINISCOPE_BOT_PASSWORD }}
