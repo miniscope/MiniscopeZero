@@ -10,6 +10,9 @@ Miniscope Zero is a miniature one-photon microscope that operates without tether
 
 Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Marcel Brosch ([@MarcelMB](https://github.com/MarcelMB)).
 
+## Demonstration video
+https://github.com/user-attachments/assets/aa9ec822-df9f-4f50-9b2d-21a6ab23955f
+
 ## Repository contents
 
 ```
@@ -75,3 +78,6 @@ Off-the-shelf or reference modules used in the system:
 This repository primarily archives the design files accompanying the paper, so
 pull requests are unlikely to be merged. Questions and issue reports are
 welcome via the issue tracker, though we cannot guarantee a response.
+
+## Wireless system video
+https://github.com/user-attachments/assets/bc67a5da-3641-4dcf-a8c2-b1db79f1c406
