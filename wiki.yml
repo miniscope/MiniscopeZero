@@ -9,10 +9,9 @@ description: |
 repository_url: https://github.com/miniscope/MiniscopeZero
 license: CERN-OHL-S-2.0
 
-# TODO
-# citation:
-#   doi:
-#   bibtex: CITATION.bib
+citation:
+  doi: 10.64898/2026.09.05.745822
+  bibtex: CITATION.bib
 
 specs:
   - {name: Field of View,      value: "600 × 600", unit: um}

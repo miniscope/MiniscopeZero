@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: If you use this work, please cite the preprint below.
+title: Miniscope Zero
+repository-code: https://github.com/miniscope/MiniscopeZero
+authors:
+  - family-names: Sasatani
+    given-names: Takuya
+  - family-names: Brosch
+    given-names: Marcel
+preferred-citation:
+  type: article
+  title: "Miniscope Zero: a fully wireless, single-cell-resolution miniature microscope for imaging neural dynamics in freely behaving animals"
+  journal: bioRxiv
+  year: 2026
+  doi: 10.64898/2026.09.05.745822
+  url: https://doi.org/10.64898/2026.09.05.745822
+  authors:
+    - family-names: Sasatani
+      given-names: Takuya
+    - family-names: Brosch
+      given-names: Marcel
+    - family-names: Dong
+      given-names: Zhe
+    - family-names: Saunders
+      given-names: Jonny
+    - family-names: Zhao
+      given-names: Pingping
+    - family-names: Sehgal
+      given-names: Megha
+    - family-names: Oesch
+      given-names: Lukas T.
+    - family-names: Sangiuliano Jimka
+      given-names: Federico
+    - family-names: Semwal
+      given-names: Hemal
+    - family-names: Guha
+      given-names: Aparajeeta
+    - family-names: Chorsi
+      given-names: Hamid
+    - family-names: Keus
+      given-names: Karina
+    - family-names: Madruga
+      given-names: Blake A.
+    - family-names: Silva
+      given-names: Alcino J.
+    - family-names: Churchland
+      given-names: Anne K.
+    - family-names: Golshani
+      given-names: Peyman
+    - family-names: Aharoni
+      given-names: Daniel
