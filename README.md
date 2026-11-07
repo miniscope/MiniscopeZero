@@ -5,6 +5,7 @@ Repository for **Miniscope Zero: a fully wireless, single-cell-resolution miniat
 Miniscope Zero is a miniature one-photon microscope that operates without tethers: power is delivered via quasistatic cavity resonance (QSCR) wireless power transfer, and imaging data is streamed over a high-bandwidth optical link. This repository hosts the project-specific hardware designs — the miniscope, the optical data acquisition hardware, and the QSCR arena — and points to the related software and hardware repositories.
 
 - Preprint: [bioRxiv](https://doi.org/10.64898/2026.09.05.745822) (doi:10.64898/2026.09.05.745822)
+- Data: [UCLA Dataverse](https://dataverse.ucla.edu/dataverse/miniscopezero) (see [Datasets](#datasets))
 - Wiki: https://miniscope.org/wiki/Miniscope_Zero
 - License: [CERN-OHL-S v2](LICENSE) — bundled code retains its original license where noted: the vendored [Miniscope-SAMD-Framework](https://github.com/miniscope/Miniscope-SAMD-Framework) snapshot (`MS_module`) is AGPL-3.0, and Microchip ASF/Atmel START driver code keeps Microchip's license
 
@@ -49,6 +50,15 @@ guides/                             Build and operation guides
 ├── qscr_operation.md               QSCR cavity operation, tuning, and assembly
 └── img/                            Figures for the guides
 ```
+
+## Datasets
+
+Data accompanying the paper are archived in the [Miniscope Zero collection](https://dataverse.ucla.edu/dataverse/miniscopezero) on UCLA Dataverse:
+
+- [Figure source data and hardware characterization](https://doi.org/10.25346/S6VGDP7C) (doi:10.25346/S6VGDP7C)
+- [Open-field place cell recordings](https://doi.org/10.25346/S6PNI5WP) (doi:10.25346/S6PNI5WP)
+- [3D maze, multi-level arena and complex environment recordings](https://doi.org/10.25346/S6684SQV) (doi:10.25346/S6684SQV)
+- [Behavior tracking and histology](https://doi.org/10.25346/S6ZWUJWY) (doi:10.25346/S6ZWUJWY)
 
 ## Related repositories (developed by authors)
 
