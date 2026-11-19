@@ -9,7 +9,7 @@ Miniscope Zero is a miniature one-photon microscope that operates without tether
 - Wiki: https://miniscope.org/wiki/Miniscope_Zero
 - License: [CERN-OHL-S v2](LICENSE) — bundled code retains its original license where noted: the vendored [Miniscope-SAMD-Framework](https://github.com/miniscope/Miniscope-SAMD-Framework) snapshot (`MS_module`) is AGPL-3.0, and Microchip ASF/Atmel START driver code keeps Microchip's license
 
-Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) and Marcel Brosch ([@MarcelMB](https://github.com/MarcelMB)).
+Co-led by Takuya Sasatani ([@t-sasatani](https://github.com/t-sasatani)) nd [Marcel Brosch](https://marcelbrosch.com/) ([@MarcelMB](https://github.com/MarcelMB)).
 
 ## Demonstration video
 https://github.com/user-attachments/assets/aa9ec822-df9f-4f50-9b2d-21a6ab23955f
