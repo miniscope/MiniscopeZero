@@ -38,7 +38,8 @@ Assembled, they sit like this:
 
 | Item | What we use | Notes |
 |---|---|---|
-| Optical adhesive | Norland Optical Adhesive 68 | UV-cure and reworkable. Always tiny droplets. |
+| Optical adhesive | Norland Optical Adhesive 68 | UV-cure and reworkable. Always tiny droplets. Use near the beam path and anywhere rework may be needed. |
+| Structural adhesive | Permabond UV625 ("hard glue") | UV-cure, rigid. For structural joints and light-sealing walls that should never move (e.g. the mirror slot opening, the daughterboard). |
 | Black paint | Mousou Black (Koyo Orient Japan Co.) | For sealing seams and edges. |
 | Black marker | Any black permanent marker (Sharpie) | Convenient for optic edges, but see below — often not black enough. |
 | Fine brush | Any fine artist's brush | For applying black paint into small pockets and around edges. |
@@ -70,6 +71,15 @@ A permanent marker is quick and fine for this, but **a Sharpie is often not
 actually black enough** — it still transmits a surprising amount at these path
 lengths. Where it matters, use **Mousou Black applied with a fine brush**
 instead. Thin layers, fully dried.
+
+On the aspheres, blacken the **sides and the stepped flange — every translucent
+place** outside the clear aperture. On the **excitation and emission filters**,
+also run the Sharpie around the border of **both flat faces**, not just the side
+edges — see the rightmost photo below: the darkened rim on the face is this.
+This is what the pre-painted optics look like (asphere before and after):
+
+| ![Asphere before](img/prepaint_asphere_before.jpg) | ![Asphere after](img/prepaint_asphere_after.jpg) | ![Excitation filter, sides and face borders](img/prepaint_excitation_filter.jpg) |
+|---|---|---|
 
 **Identify the coated side.** Every filter has one coated surface and one that
 looks more translucent. Coating orientation matters optically and is called out
@@ -106,9 +116,23 @@ Optics go into each printed part **before** the parts are joined together.
    important light-leak control in the whole build: any excitation light that gets
    past the filter edge enters the emission path directly and shows up as a raised
    background floor on the sensor.
-4. Glue the excitation LED PCB onto the top of the unit. Position the **LXZ1-PB01
-   die carefully inside the opening** so it is neither tilted nor laterally
-   offset — this is what determines illumination uniformity across the FOV later.
+4. Glue the excitation LED PCB (daughterboard) onto the top of the unit with
+   hard glue, then paint. Position the **LXZ1-PB01 die carefully inside the
+   opening** so it is neither tilted nor laterally offset — this is what
+   determines illumination uniformity across the FOV later. Practical points:
+   - The LED fits tightly: you'll need to push it in, and it will not go all the
+     way flush. That is expected.
+   - **Avoid lateral shear on the LED — it can tear off its pads.** Lighting the
+     LED up (from another daughterboard, or via the debugger tab pins) before
+     and after mounting is a cheap check that the electrical connection
+     survived.
+   - Build a glue wall and paint the **edge facing the motherboard** — it is
+     hard to reach later and is a critical light-leak path.
+   - Bend the flex cable up, then glue and paint beneath it so light cannot leak
+     in from underneath.
+
+| ![Installed excitation filter, lit](img/excitation_filter_installed.jpg) | ![Daughterboard glued and sealed](img/daughterboard_side.jpg) |
+|---|---|
 
 ### 4.2 `base_unit` — dichroic and tube lens
 
@@ -119,28 +143,46 @@ Optics go into each printed part **before** the parts are joined together.
 3. Secure the dichroic with UV glue on the **left and right sides only**. Never
    put adhesive anywhere the beam passes through.
 4. Snap the objective asphere **#15273** into the bottom bore of `base_unit`.
-   Check belly direction against the drawing. It is not clamped at this stage —
-   pressing `objective_unit` (with the plano-convex in it) into the base is what
-   finally secures it, so leave it seated and move on. See §5.
+   **Watch the optical axis as you seat it — this lens tilts easily.** It is not
+   clamped at this stage and will feel loose; that is fine, because pressing
+   `objective_unit` (with the plano-convex in it) into the base is what finally
+   secures it. Leave it seated and move on. See §5.
+
+| ![Asphere seated in base unit](img/asphere_in_base.jpg) | ![Dichroic glued in the 45° slot](img/dichroic_glued.jpg) |
+|---|---|
 
 ### 4.3 `focus_slider_unit` — mirror, emission filter, sensor
 
-1. Insert the mirror **PFR10-P01 (5 × 7 × 1)** from the **rear opening**.
-   One tiny droplet of glue.
-2. **Seal the rear mirror opening** completely with glue and black paint. It is a
-   wide opening and it faces the outside world — untreated, it is the largest
-   ambient-light entry point on the scope.
+1. Insert the mirror **PFR10-P01 (5 × 7 × 1)** from the **rear opening**. Make
+   sure it is pushed in all the way and sits at the bottom of the slot — press
+   it home with a cotton swab to check. One tiny droplet of glue.
+2. **Seal the rear mirror opening** completely with hard glue and black paint.
+   It is a wide opening and it faces the outside world — untreated, it is the
+   largest ambient-light entry point on the scope.
+
+   ![Mirror inserted via the rear slot](img/mirror_inserted.jpg)
 3. Glue the emission filter **#ET525/50m (5 × 5 × 1)** onto the image sensor,
    **coated side away from the sensor**.
 4. Glue and blacken around the filter so light can only reach the sensor through
-   the coated aperture. Two details that matter here:
+   the coated aperture. Three details that matter here:
    - **Do not cover PCB components** on the sensor board with glue or paint.
+   - Build **wall-molded layers of optical glue around the sides** of the
+     sensor-filter stack first, so the Mousou paint has something to sit on and
+     can fully enclose the sides and edges.
    - Run a **≤ 1 mm strip of black paint around the flat face at the edge**, not
      just around the side edge of the filter. The side edge alone leaves a
      shallow path along the glass surface.
+
+   | ![Filter glued onto the sensor](img/filter_on_sensor.jpg) | ![Walls glued and blackened](img/sensor_blackened.jpg) |
+   |---|---|
 5. Insert the sensor (with filter attached) into the top pocket, then **glue and
    black-paint around the inserted sensor** so ambient light cannot enter around
-   its perimeter.
+   its perimeter. A gap of up to ~0.5 mm between the board surface and the
+   printed body is normal — bridge it with glue so every edge is covered. The
+   **side facing `excitation_unit` is the most critical**: it is hard to reach
+   with paint once the units are joined and easily becomes a light-leak path.
+
+   ![Motherboard mounted and sealed](img/motherboard_mounted.jpg)
 
 ---
 
@@ -150,9 +192,23 @@ Optics go into each printed part **before** the parts are joined together.
 
 | Step | Joint | Treatment |
 |---|---|---|
-| 1 | `objective_unit` → `base_unit` | Holds the plano-convex #45226 and, by pressing home, **also secures the objective asphere #15273 already sitting in the base bore**. Snap in, then **one tiny drop of glue**. Keep it minimal: this part must end up perfectly flat, because it references into the baseplate. |
+| 1 | `objective_unit` → `base_unit` | Holds the plano-convex #45226 and, by pressing home, **also secures the objective asphere #15273 already sitting in the base bore**. Snap in, then **a couple of tiny drops of optical glue at the edges**. Keep it minimal and flat: this part references into the baseplate, and glue that builds up thickness will obstruct seating in the baseplate later. |
 | 2 | `focus_slider_unit` → `base_unit` | **Glue.** This is the printed-to-printed joint that must be bonded. Black-paint the seam afterwards. |
 | 3 | `excitation_unit` → `base_unit` | Snap fit onto the 45° face, then glue **only on the sides where it snaps into the lips / protrusions of `base_unit`**. Keep adhesive off the 45° mating face itself — that face sits directly over the dichroic slot. Black-paint the seam. |
+
+When seating the plano-convex in `objective_unit`, match the **flat bottom
+surface of the lens to the bottom face of the printed part** — the lens must not
+sit deeper than the printed surface.
+
+| ![Lens seated flush](img/planoconvex_seated.jpg) | ![Applying glue at the edges](img/objective_glue.jpg) | ![Objective unit glued to the base](img/objective_glued.jpg) |
+|---|---|---|
+
+When finally joining `focus_slider_unit` and `excitation_unit`, the tube lens
+asphere **#14572** sits between them — snap fit, **no glue on the asphere
+itself**.
+
+| ![The two units before joining](img/units_before_joining.jpg) | ![Fully assembled scope body](img/assembled.jpg) |
+|---|---|
 
 Black paint every external seam once assembled, in thin layers, and let it dry
 fully. The scope will often be used in an illuminated room.
